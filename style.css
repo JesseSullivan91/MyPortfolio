@@ -1,0 +1,393 @@
+
+body {
+	background-color: #202020 !important;
+	margin: 0;
+}
+
+/********************
+	   NAVBAR
+********************/
+
+.logo {
+	margin-left: 15px;
+}
+
+.navbar {
+	background-color: transparent;
+	height: 80px;
+	transition: 0.3s;
+}
+
+.nav-item a {
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: 20px;
+}
+
+.nav-item a:hover {
+	color: #948053;
+	transition: 0.7s;
+}
+
+/********************
+     JUMBOTRON
+********************/
+
+.jumbotron {
+	background-image: url("bg3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 720px;
+	margin-top: -110px;
+	text-align: center;
+}
+
+.jt-logo {
+	margin-top: 200px;
+	width: 70%;
+}
+
+h1 {
+	font-family: 'Questrial', sans-serif !important;
+	color: #FFF;
+	font-size: 25px !important;
+	padding-top: 25px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: lighter;
+}
+
+/********************
+    MOBILE NAVBAR
+********************/
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: transparent;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: transparent;
+  color: #FFF;
+}
+
+.topnav a:active {
+	color: #948053;
+}
+
+.active {
+  background-color: transparent;
+  color: white;
+} 
+
+#myLinks a {
+	font-family: 'Roboto', sans-serif !important;
+	color: #FFF !important;
+	font-size: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+#myLinks a:hover {
+	color: #948053 !important;
+	transition: 0.5s;
+}
+
+.links-bg {
+	background-color: black !important;
+	text-align: center;
+}
+/********************
+      MAIN PAGE
+********************/
+
+.main-page {
+	text-align: center;
+}
+
+.about-banner {
+	margin-top: -32px;
+}
+
+.main-paragraph {
+	font-family: 'Questrial', sans-serif !important;
+	color: #FFF;
+	font-size: 25px !important;
+	line-height: 45px;
+	width: 60%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+/********************
+  PROJECTS SECTION
+********************/
+
+.projects-banner {
+	margin-top: 60px;
+}
+
+h3 {
+	font-family: 'Roboto Condensed', sans-serif !important;
+	font-size: 50px !important;
+	text-transform: uppercase;
+	color: #FFF !important;
+	height: 100px;
+	width: 100%;
+	background-color: black !important;
+	padding-top: 18px;
+}
+
+.projects {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 15%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.card {
+	width: 270px !important;
+	margin: 0 20px 0 20px;
+	border-radius: 5px !important;
+	border-color: black !important;
+}
+
+.card-img-top {
+	height: 240px;
+}
+
+.card-title {
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.card-text {
+	font-family: 'Questrial', sans-serif !important;
+	height: 75px !important;
+}
+
+.projects-link {
+	text-decoration: none!important;
+	color: black;
+}
+
+.projects-link:hover {
+	color: black;
+}
+
+/********************
+    CONTACT FORM
+********************/
+
+.contact-banner {
+	margin-bottom: 100px;
+}
+
+h3 {
+	text-align: center;
+}
+
+.contact-intro {
+	font-family: 'Questrial', sans-serif !important;
+	color: #FFF;
+	font-size: 25px !important;
+	line-height: 45px;
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+form {
+	margin: auto;
+	text-align: center;
+	background-color: #F5F8F7;
+	width: 50%;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+input, textarea {
+	padding: 10px;
+	width: 90%;
+}
+
+textarea {
+	width: 90%;
+	height: 150px;
+	line-height: 18px;
+}
+
+.form label {
+	margin-left: 0;
+	color: black;
+}
+
+.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color: #707070; 
+	color: #FFF;
+	border-radius: 3px;
+}
+
+.submit input:hover {
+	background-color: #202020;
+}
+
+.thank-you {
+	font-family: 'Questrial', sans-serif !important;
+	color: #FFF;
+	font-size: 30px !important;
+	padding-top: 260px;
+	padding-bottom: 140px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 70px;
+}
+
+
+/********************
+       FOOTER
+********************/
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	background: black;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.media-icons {
+	padding-top: 35px;
+	margin-right: 5%;
+}
+
+.media-icons li {
+	display: inline;
+	font-size: 30px;
+	padding: 0 15px 0 15px;
+}
+
+.media-icons a {
+	color: #FFFFFF;
+}
+
+.media-icons a:hover {
+	color: #FFFFFF;
+}
+
+.copyright {
+	font-family: 'Questrial', sans-serif !important;
+	font-size: 15px;
+	color: #FFFFFF;
+	padding-top: 10px;
+	max-width: 90%;
+	margin: auto;
+}
+
+/********************
+    MEDIA QUERIES
+********************/
+
+@media only screen and (max-width: 650px) {
+	.navbar {
+		visibility: hidden;
+	}
+
+	.jumbotron {
+		margin-top: 
+	}
+}
+
+@media only screen and (min-width: 650px) {
+	.topnav {
+		visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.nav-item a {
+		font-size: 10px;
+	}
+
+	.jumbotron {
+		height: 650px;
+		margin-top: -121px;
+	}
+
+	.jt-logo {
+		margin-top: 250px;
+		width: 95%;
+	}
+
+	h2 {
+		font-size: 25px !important;
+	}
+
+	.main-paragraph {
+		font-size: 20px !important;
+		width: 85%;
+	}
+
+	.card {
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		margin-bottom: 30px;
+		width: 95% !important;
+	}
+
+	.projects {
+		width: 80%;
+		margin: auto;
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+
+	.footer {
+		height: 170px;
+	}
+
+	.media-icons {
+		margin-right: 10%;
+	}
+
+	form {
+		width: 90%;
+	}
+
+}
